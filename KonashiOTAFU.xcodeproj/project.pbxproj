@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F81CA25D1C3E424A00BE2F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81CA25C1C3E424A00BE2F99 /* ViewController.swift */; };
+		F81CA25F1C3E552200BE2F99 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81CA25E1C3E552200BE2F99 /* BluetoothManager.swift */; };
+		F81CA2631C3E6CFB00BE2F99 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81CA2621C3E6CFB00BE2F99 /* Downloader.swift */; };
+		F81CA2651C3E6D0A00BE2F99 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F81CA2641C3E6D0A00BE2F99 /* LICENSE */; };
+		F81CA2671C3E754C00BE2F99 /* Crc32.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81CA2661C3E754C00BE2F99 /* Crc32.swift */; };
+		F86DB6501C3DC4EB00401DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DB64F1C3DC4EB00401DDD /* AppDelegate.swift */; };
+		F86DB6521C3DC4EB00401DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86DB6511C3DC4EB00401DDD /* Assets.xcassets */; };
+		F86DB6551C3DC4EC00401DDD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86DB6531C3DC4EC00401DDD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F81CA25C1C3E424A00BE2F99 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F81CA25E1C3E552200BE2F99 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		F81CA2621C3E6CFB00BE2F99 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		F81CA2641C3E6D0A00BE2F99 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F81CA2661C3E754C00BE2F99 /* Crc32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crc32.swift; sourceTree = "<group>"; };
+		F86DB64C1C3DC4EB00401DDD /* KonashiOTAFU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonashiOTAFU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86DB64F1C3DC4EB00401DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F86DB6511C3DC4EB00401DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F86DB6541C3DC4EC00401DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F86DB6561C3DC4EC00401DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86DB6491C3DC4EB00401DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F86DB6431C3DC4EB00401DDD = {
+			isa = PBXGroup;
+			children = (
+				F81CA2641C3E6D0A00BE2F99 /* LICENSE */,
+				F86DB64E1C3DC4EB00401DDD /* KonashiOTAFU */,
+				F86DB64D1C3DC4EB00401DDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F86DB64D1C3DC4EB00401DDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86DB64C1C3DC4EB00401DDD /* KonashiOTAFU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86DB64E1C3DC4EB00401DDD /* KonashiOTAFU */ = {
+			isa = PBXGroup;
+			children = (
+				F86DB64F1C3DC4EB00401DDD /* AppDelegate.swift */,
+				F86DB6511C3DC4EB00401DDD /* Assets.xcassets */,
+				F86DB6531C3DC4EC00401DDD /* MainMenu.xib */,
+				F86DB6561C3DC4EC00401DDD /* Info.plist */,
+				F81CA25C1C3E424A00BE2F99 /* ViewController.swift */,
+				F81CA25E1C3E552200BE2F99 /* BluetoothManager.swift */,
+				F81CA2621C3E6CFB00BE2F99 /* Downloader.swift */,
+				F81CA2661C3E754C00BE2F99 /* Crc32.swift */,
+			);
+			path = KonashiOTAFU;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86DB64B1C3DC4EB00401DDD /* KonashiOTAFU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86DB6591C3DC4EC00401DDD /* Build configuration list for PBXNativeTarget "KonashiOTAFU" */;
+			buildPhases = (
+				F86DB6481C3DC4EB00401DDD /* Sources */,
+				F86DB6491C3DC4EB00401DDD /* Frameworks */,
+				F86DB64A1C3DC4EB00401DDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KonashiOTAFU;
+			productName = KonashiOTAFU;
+			productReference = F86DB64C1C3DC4EB00401DDD /* KonashiOTAFU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86DB6441C3DC4EB00401DDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Takashi Toyoshima";
+				TargetAttributes = {
+					F86DB64B1C3DC4EB00401DDD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F86DB6471C3DC4EB00401DDD /* Build configuration list for PBXProject "KonashiOTAFU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F86DB6431C3DC4EB00401DDD;
+			productRefGroup = F86DB64D1C3DC4EB00401DDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86DB64B1C3DC4EB00401DDD /* KonashiOTAFU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86DB64A1C3DC4EB00401DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81CA2651C3E6D0A00BE2F99 /* LICENSE in Resources */,
+				F86DB6521C3DC4EB00401DDD /* Assets.xcassets in Resources */,
+				F86DB6551C3DC4EC00401DDD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86DB6481C3DC4EB00401DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81CA25D1C3E424A00BE2F99 /* ViewController.swift in Sources */,
+				F81CA25F1C3E552200BE2F99 /* BluetoothManager.swift in Sources */,
+				F81CA2631C3E6CFB00BE2F99 /* Downloader.swift in Sources */,
+				F86DB6501C3DC4EB00401DDD /* AppDelegate.swift in Sources */,
+				F81CA2671C3E754C00BE2F99 /* Crc32.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F86DB6531C3DC4EC00401DDD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F86DB6541C3DC4EC00401DDD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F86DB6571C3DC4EC00401DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F86DB6581C3DC4EC00401DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F86DB65A1C3DC4EC00401DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KonashiOTAFU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.toyoshima-house.KonashiOTAFU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F86DB65B1C3DC4EC00401DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KonashiOTAFU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.toyoshima-house.KonashiOTAFU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86DB6471C3DC4EB00401DDD /* Build configuration list for PBXProject "KonashiOTAFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86DB6571C3DC4EC00401DDD /* Debug */,
+				F86DB6581C3DC4EC00401DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86DB6591C3DC4EC00401DDD /* Build configuration list for PBXNativeTarget "KonashiOTAFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86DB65A1C3DC4EC00401DDD /* Debug */,
+				F86DB65B1C3DC4EC00401DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86DB6441C3DC4EB00401DDD /* Project object */;
+}
